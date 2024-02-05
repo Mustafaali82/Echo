@@ -168,6 +168,54 @@ header nav div {
     width: 700px;
 }
 
+/* Feature Section Styling */
+
+.feature{
+    text-align: center  ;
+   padding: 30px 80px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.feature span{
+    font-size: 16px;
+    padding: 5px 30px;
+    background-color: #FEF0DA;
+    border-radius: 50px;
+    color: #FBB244;
+    font-weight: 600;
+}
+
+.feature h1{
+    font-size: 50px;
+    margin-top: 30px;
+    color: #081158;
+    line-height: 60px;
+    margin-bottom: 25px;
+}
+
+.feature p {
+    font-size: 17px;
+    line-height: 25px;
+    color: rgb(132, 132, 132);
+    width: 700px;
+}
+
+
+.feature-box{
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.feature-box-child p{
+    width: 350px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
 @media screen and (max-width: 767px) {
     .humburgerMenu {
         display: block;
