@@ -98,6 +98,76 @@ header nav div {
     display: none;
 }
 
+/* Hero Section Styling */
+
+.hero-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 70px;
+    padding: 30px 80px;
+}
+
+.title span{
+    font-size: 16px;
+    padding: 13px;
+    background-color: #FEF0DA;
+    border-radius: 50px;
+    color: #FBB244;
+    font-weight: 600;
+}
+
+.title h1{
+    font-size: 50px;
+    margin-top: 30px;
+    color: #081158;
+    line-height: 60px;
+    margin-bottom: 25px;
+}
+
+.title p {
+    font-size: 17px;
+    line-height: 25px;
+    color: rgb(132, 132, 132);
+}
+
+.button-box{
+    display: flex;
+    gap: 20px;
+}
+
+.button-box button{
+    padding: 20px 40px; 
+    margin-top: 30px;
+    border-radius: 50px;
+    border: 1px solid #081158;
+    font-size: 20px;
+    display: flex;
+    cursor: pointer;
+    background-color: #081158;
+    color: white;
+    transition: 0.5s;
+}
+
+.btn2{
+    background-color: white !important;
+    color: #081158 !important;
+}
+
+.btn2:hover{
+    background-color: #081158 !important;
+    color: white !important;
+}
+
+.btn1:hover{
+   background-color: white;
+   color: #081158;
+}
+
+.image img{
+    width: 700px;
+}
+
 @media screen and (max-width: 767px) {
     .humburgerMenu {
         display: block;
